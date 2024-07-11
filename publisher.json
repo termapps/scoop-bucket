@@ -1,0 +1,17 @@
+{
+  "version": "0.0.3",
+  "description": "Tool to publish & distribute CLI tools",
+  "homepage": "https://github.com/termapps/publisher",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/termapps/publisher/releases/download/v0.0.3/publisher-v0.0.3-x86_64-pc-windows-msvc.zip",
+      "hash": "d23d5ae08f6363964d10a7a5ccb4a95514462e1132593cdc3294549943ec6982"
+    },
+    "32bit": {
+      "url": "https://github.com/termapps/publisher/releases/download/v0.0.3/publisher-v0.0.3-i686-pc-windows-msvc.zip",
+      "hash": "a1a9fc1ae49c80dac3d3d92182d1b3074117b9205042f8be190a02115a7fc3e4"
+    }
+  },
+  "bin": ["publisher.exe"]
+}
